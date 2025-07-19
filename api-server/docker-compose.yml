@@ -1,0 +1,7 @@
+services:
+  api-server:
+    build:
+      context: .
+    container_name: api-server-cep
+    ports:
+      - "8080:8080"
